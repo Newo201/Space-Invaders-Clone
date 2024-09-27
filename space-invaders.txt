@@ -1,0 +1,43 @@
+What Characteristics Does The Game Have
+
+- The space invaders move uniformly from left to right
+- When they reach the edge of the screen, they all move down a particular amount
+- Each time they move down, the velocity of the brigade increases slightly
+- Each alien has 1 health
+- Tank can only fire 1 bullet at a time
+- Barricades which get diminished each time they are shot (how can I replicate this?)
+
+How I Plan To Implement Features
+
+- Get asset images
+    - Different aliens ✓
+    - Tank ✓
+    - Sounds
+    - Background ✓
+- Load spaceships onto screen ✓
+- Load player onto screen ✓
+- Movement
+    - Spaceships move automatically ✓
+    - Handle when spaceships reach the edge of the screen ✓
+    - Increase velocity over time
+    - Allow player to move left and right ✓
+- Bullet Firing
+    - Players can fire max 1 bullet at a time ✓
+    - Random firing of bullets from brigade ✓
+- Damage
+    - Alien Damage (remove from screen) ✓
+    - Player Damage - lives lost ✓
+- Handle Aliens Being Defeated
+    - Restart Game ✓
+- Handle Player Losing
+    - Aliens reach the player
+    - Stop the game for a second when a life is lost
+    - Lives exhausted ✓
+    - End Game ✓
+
+Additional Features
+- Barricades
+- Powerups
+- Levels
+- Animation of Aliens (use alternating images)
+- Animation of Player when life lost
